@@ -62,7 +62,7 @@ function ReferenceImage({ faceLivenessAnalysis , tryagain }) {
             <Button variation="primary" type="submit" marginTop={tokens.space.large} marginBottom={tokens.space.large} onClick={tryagain}>Try Again</Button>
 
             <Image
-                src={"data:image/jpeg;base64," + faceLivenessAnalysis.ReferenceImage.Bytes}
+                src={"data:image/jpeg;base64," + faceLivenessAnalysis.ReferenceImage.S3Object.Name}
                 width="100%"
                 height="100%"
                 objectFit="cover"

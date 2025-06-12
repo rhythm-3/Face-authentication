@@ -50,7 +50,7 @@ function FaceLiveness({faceLivenessAnalysis}) {
                     method: 'POST',
                     body: JSON.stringify({
                         source_bucket: 'krishnabucket36',
-                        source_image: 'Image.jpeg',
+                        source_image: 'Image (1).jpeg',
                         target_bucket: 'videocomparisionbucket',
                         target_image: sourceS3Key
                     }),
